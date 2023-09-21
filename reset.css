@@ -1,0 +1,11 @@
+h1{
+  font-size: 100%; /* 16px */
+  font-weight: normal; /* 폰트두께 */
+}
+ul,ol{
+  list-style: none; /* 점표시 없앰 */
+}
+a{
+  text-decoration: none;
+  color: #0366ffb2;
+}

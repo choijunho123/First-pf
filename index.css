@@ -1,0 +1,383 @@
+html{
+  height: 1200px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+body{
+  background-image: url(img/Water.jpg);
+  background-size: 100%;
+  font-family: 'Noto Sans KR', sans-serif;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* 공통클래스 스타일 */
+.wrap{
+  
+  width: 1440px;
+  margin: 50px auto;
+  color: black;
+}
+/* 상단영역 */
+header{
+  
+}
+header.wrap{
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+header h1{
+}
+header h1 a{
+  /*! background-color: whitesmoke; */
+  padding: 20px;
+  display: block;
+  text-shadow: 5px 5px 5px darkblue;
+  color: white;
+  font-weight: 700;
+}
+h1{
+  font-size: 80px;
+  margin-block: 15px;
+  display: flex;
+  justify-content: center;
+  background-image: url(img/junho-removebg-preview-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: 305px;
+}
+header ul{
+  display: flex;
+  gap: 300px;
+  justify-content: center;
+  font-size: 25px;
+  color: wheat;
+}
+header ul a:hover{
+  transition: all 1s;
+}
+/* 타이틀 영역 */
+div#title{
+  height: 100%;
+  display: flex;
+  background-size: 25%;
+  background-image: url(img/paula-poe-Jx6i9qfufws-unsplash-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position-x: 1200px;
+  background-position-y: -46px;
+}
+div#title .wrap h2{
+  font-size: 80px;
+  font-family: 'Black Han Sans', sans-serif;
+  text-shadow: 1px 3px 5px skyblue;
+  color: #ffffff78;
+  /*! padding: 5%; */
+  text-align: center;
+  margin-left: 270px;
+  display: flex;
+  justify-content: flex-start;
+}
+div#title ul{
+  position: fixed;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 11;
+  font-size: 20px;
+  text-shadow: 1px 1px 3px wheat;
+}
+div#title ul a:hover{
+  transition: all 1s;
+  color: whitesmoke;
+}
+div#title div.wrap ul.hash{
+    display: flex;
+  gap: 20px;
+  margin-bottom: 24px;
+  color: white;
+}
+div#title ul li a:hover{
+  color: white;
+  text-shadow: 2px 2px 5px #177ed7;
+}
+div#title div.wrap p{
+    line-height: 1.4;
+  margin-bottom: 20px;
+}
+header ul a:hover{
+  color: white;
+  text-shadow: 1px 2px 5px white;
+}
+main section#About .wrap .About h3{
+  font-size: 50px;
+  background-color: #eee;
+  border-radius: 30px;
+  padding: 10px;
+  display: inline-block;
+}
+main section .wrap{
+  display: flex;
+  height: 610px;
+  font-size: 50px;
+}
+main section .wrap img{
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  background-image: url(img/Aor.jpg);
+  border-radius: 30px 0 30% 0;
+  margin-top: 80px;
+  border: 12px solid #c6dbf6;
+}
+main section .wrap img a{
+  
+}
+main section .About p{
+  font-size: 35px;
+  display: block;
+  align-content: ;
+}
+main #About{
+  height: 980px;
+  width: 33.33%;
+  /*! text-align: center; */
+  font-family: 'NotoSansKR', sans-serif;
+  font-weight: 300;
+  line-height: 2;
+  display: table-cell;
+  text-align: center;
+}
+main #About ol{
+  display: flex;
+  font-size: 53px;
+}
+main #About ol li:nth-child(1)::before{
+  content: "";
+  background-image: url(Logo/Mali.svg);
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: -35px;
+}
+main #About ol li:nth-child(2)::before{
+  content: "";
+  background-image: url(Logo/phone_in_talk_FILL0_wght400_GRAD0_opsz48.svg);
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: -40px;
+}
+main #Skill{
+  height: 980px;
+  background-color: #fff;
+}
+main section#Skill h4{
+  font-size: 50px;
+  justify-content: center;
+}
+main #Skill .wrap{
+  flex-direction: column;
+}
+main section .wrap ul{
+  display: flex;
+  margin-top:80px;
+  margin-left: 230px;
+}
+main .png li{
+  
+}
+main section .wrap ul li::before{
+  display: flex;
+  width: 260px;
+  height: 215px;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position-x: 50%;
+  background-position-y: 0px;
+}
+main section .wrap ul li:nth-child(1):before{
+  background-image: url(png/html.png);
+  content: "";
+}
+main section .wrap ul li:nth-child(2):before{
+  background-image: url(png/css.png);
+  content: "";
+}
+main section .wrap ul li:nth-child(3):before{
+  content: "";
+  background-image: url(png/js.png);
+}
+main section .wrap ul li:nth-child(4):before{
+  content: "";
+  background-image: url(png/jq.png);
+  background-position-y: 35px;
+}
+main section .wrap ul.png li::before{
+  display: flex;
+  width: 210px;
+  height: 215px;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position-x: 50%;
+  background-position-y: 0px;
+}
+main section .wrap ul.png li:nth-child(1):before{
+  content: "";
+  background-image: url(png/ps.png);
+}
+main section .wrap ul.png li:nth-child(2):before{
+  content: "";
+  background-image: url(png/ai.png);
+}
+main section .wrap ul.png li:nth-child(3):before{
+  content: "";
+  background-image: url(png/pr.png);
+}
+main section .wrap ul.png li:nth-child(5):before{
+  content: "";
+  background-image: url(png/st.png);
+  display: flex;
+}
+main section .wrap ul.png li:nth-child(4):before{
+  content: "";
+  background-image: url(png/ae.png);
+}
+main section .Contact p{
+  font-size: 25px;
+  display: flex;
+  width: 100%;
+}
+main section .Contact p{
+  font-size: 25px;
+  display: flex;
+  width: 100%;
+}
+main section .Contact p{
+  font-size: 25px;
+  display: flex;
+  width: 100%;
+}
+main section .Contact p{
+  font-size: 25px;
+  display: flex;
+  width: 100%;
+}
+main section#Contact .wrap .Contact h5{
+  font-size: 50px;
+  height: 500px;
+}
+main section .Contact p{
+  font-size: 25px;
+  display: flex;
+  width: 100%;
+}
+main #Contact{
+  font-size: 50px;
+}
+main section#Contact .wrap .Contact h5{
+  font-size: 50px;
+  height: 500px;
+}
+main section .Contact p{
+  font-size: 25px;
+  display: flex;
+  width: 100%;
+}
+main #Contact{
+  font-size: 50px;
+}
+main section#Contact .wrap .Contact h5{
+  font-size: 50px;
+  height: 500px;
+}
+main section .Contact p{
+  font-size: 25px;
+  display: flex;
+  width: 100%;
+}
+main #Contact{
+  font-size: 50px;
+}
+main section#Contact .wrap .Contact h5{
+  font-size: 50px;
+  height: 500px;
+}
+main section .Contact p{
+  font-size: 25px;
+  display: flex;
+  width: 100%;
+}
+main #Contact{
+  font-size: 50px;
+}
+main section#Contact .wrap .Contact h5{
+  font-size: 50px;
+  height: 500px;
+}
+main section .Contact p{
+  font-size: 25px;
+  display: flex;
+  width: 100%;
+}
+main #Contact{
+  font-size: 50px;
+}
+main section#Contact .wrap .Contact h5{
+  font-size: 50px;
+  height: 30px;
+  justify-content: center;
+  display: flex;
+  flex-direction: inherit;
+}
+main section .Contact p{
+  font-size: 20px;
+  display: flex;
+  width: 100%;
+  margin-left: 100px;
+  text-align: center;
+}
+/* 포트폴리오 */
+main section h4{
+  
+  font-size: 50px;
+  justify-content: center;
+  display: flex;
+}
+main section .por{
+  
+  height: 980px;
+  width: 100%;
+}
+main section .por .contents{
+  
+  width: 1260px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0 auto;
+}
+main section .por .contents li{
+  
+  width: 300px;
+  height: 300px;
+  background-color: #eee;
+  border-radius: 20px;
+  text-align: center;
+}
+body footer{
+  width: 100%;
+  height: 100px;
+  background-color: #537497;
+}
+footer address{
+  padding-top: 30px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 1.5;
+  text-align: center;
+}
